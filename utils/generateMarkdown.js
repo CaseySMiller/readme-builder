@@ -10,7 +10,7 @@ function generateMarkdown(data) {
   
   ## License
   
-  Developed under the ${data.license} license ${licenseBadge}
+  Developed under ${data.license} ${licenseBadge}
   
   ## Table of Contents
   
@@ -25,7 +25,7 @@ function generateMarkdown(data) {
   
   ${data.install}
   
-  Install and Usage Video
+  [Install and Usage Video](${data.installVid} "Install and Usage Video")
   
   [![Installation Video](${data.installImg})](${data.installVid} "Install and Usage Video")
   

@@ -8,7 +8,7 @@
   
   ## License
   
-  Developed under the Mit License license [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  Developed under Mit License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Table of Contents
   
@@ -28,7 +28,7 @@
   5. Enter "npm install inquirer" command in terminal
   6. To launch the application type "node index.js"
   
-  Install and Usage Video
+  [Install and Usage Video](./assets/videos/install-video.mp4 "Install and Usage Video")
   
   [![Installation Video](./assets/images/install-frame.gif)](./assets/videos/install-video.mp4 "Install and Usage Video")
   
