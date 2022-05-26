@@ -2,9 +2,8 @@
 const inquirer = require("inquirer");
 const fs = require('fs');
 const makeMD = require("./utils/generateMarkdown");
-console.log(makeMD);
 
-// TODO: Create an array of questions for user input
+// Create an array of questions for user input
 const questions = {};
 inquirer
 .prompt([
@@ -74,27 +73,16 @@ inquirer
     },
 ])
 .then ( (response) => {
-    console.log(response);
-    // send response data to questions object
-    // Object.assign(questions, response);
-
     // call write function here
     writeToFile('README.md', response);
-
-    // console.log(licenseBadge);
 });
 
 
 
-// TODO: Create a function to write README file
+// function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, makeMD(data), (err) =>
     err ? console.error(err) : console.log('Success!')
 );
 };
 
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();

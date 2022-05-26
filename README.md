@@ -22,7 +22,8 @@
   install stuff
   
   Install Video
-  [![Installation Video](./assets/images/install-frame.png)](./assets/videos/install-video.mp4 "Install Video")
+  
+  [![Installation Video](./assets/images/install-frame.gif)](./assets/videos/install-video.mp4 "Install Video")
   
   ## Usage
   
