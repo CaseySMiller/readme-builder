@@ -24,12 +24,12 @@ inquirer
     },
     {
         type: "input",
-        message: "What is address of the installation video",
+        message: "What is address of your video",
         name: "installVid"
     },
     {
         type: "input",
-        message: "What is address of the installation video display image",
+        message: "What is address of your video display image",
         name: "installImg"
     },
     {
@@ -74,7 +74,7 @@ inquirer
 ])
 .then ( (response) => {
     // call write function here
-    writeToFile('README.md', response);
+    writeToFile('./output/README.md', response);
 });
 
 

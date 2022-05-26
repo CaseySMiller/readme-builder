@@ -26,6 +26,7 @@ function generateMarkdown(data) {
   ${data.install}
   
   Install and Usage Video
+  
   [![Installation Video](${data.installImg})](${data.installVid} "Install and Usage Video")
   
   ## Usage
