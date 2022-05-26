@@ -1,14 +1,14 @@
 >>accept promts for information
     >title    project title
     >descr    decription
-    install    install instructions
+    >install    install instructions
     >usage    usage information
-    contrib    contribution guidlines
-    testInstr    test instructions
+    >contrib    contribution guidlines
+    >testInstr    test instructions
     >license    license select -- 
         if statement make license badge code a variable
-    gitUsr    github username
-    email    email
+    >gitUsr    github username
+    >email    email
 
 writeFile readme with the inputs included
 
