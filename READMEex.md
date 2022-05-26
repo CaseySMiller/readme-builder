@@ -25,7 +25,7 @@ Developed under the ${questions.license} license
 
 ${questions.install}
 
-[![Installation Video]({./assets/images/install-frame.png})]({./assets/videos/install-video.mp4} "Install Video")
+[![Installation Video](./assets/images/install-frame.png)](./assets/videos/install-video.mp4 "Install Video")
 
 ## Usage
 
